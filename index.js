@@ -29,7 +29,7 @@ try {
       const localVersion = require(`${ process.env.GITHUB_WORKSPACE }/package.json`).version;
 
       if (!semver.valid(localVersion)) core.setFailed(`Current version '${ localVersion }' detected as invalid one`);
-      if (!semver.gt(version, localVersion)) core.setFailed(`Version '${ localVersion }' wasn't detected as greater than '${ version }'`);
+      if (!semver.gt(localVersion, version)) core.setFailed(`Version '${ localVersion }' wasn't detected as greater than '${ version }'`);
     })
     .catch(core.setFailed);
 } catch (error) {
