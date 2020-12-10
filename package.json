@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/del-systems/check-if-version-bumped.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Shakhzod Ikromov",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/del-systems/check-if-version-bumped/issues"
   },
