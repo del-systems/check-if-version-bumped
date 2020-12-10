@@ -1,0 +1,10 @@
+name: 'Check if version bumped'
+description: 'Checks if version is bumped in package.json in pull requests'
+inputs:
+  token:
+    description: 'Token to use to retrieve base file. Needed only on private repositories'
+    required: false
+    default: ''
+runs:
+  using: 'node12'
+  main: 'index.js'
