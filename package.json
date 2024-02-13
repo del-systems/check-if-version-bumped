@@ -1,6 +1,6 @@
 {
   "name": "check-if-version-bumped",
-  "version": "1.1.1",
+  "version": "2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/del-systems/check-if-version-bumped#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@actions/github": "^5.0.3",
-    "node-fetch": "^2.6.1",
-    "semver": "^7.3.4"
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "node-fetch": "^3.3.2",
+    "semver": "^7.6.0"
   }
 }

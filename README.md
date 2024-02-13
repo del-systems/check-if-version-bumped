@@ -13,9 +13,15 @@ _Optional_. Specify where to obtain `package.json` file. Path is relative to git
 ## Outputs
 _None_
 
+## Releases and node versions
+Release|Node version
+------|--------
+2.x | Node 20
+1.x | Node 16
+
 ## Example usage
 ```yaml
-- uses: del-systems/check-if-version-bumped@v1
+- uses: del-systems/check-if-version-bumped@v2
   with:
     token: ${{ secrets.GITHUB_TOKEN }}
     path: "server/package.json"
