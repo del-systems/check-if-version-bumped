@@ -10,7 +10,7 @@ inputs:
     required: false
     default: 'package.json'
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'index.js'
 branding:
   icon: info
