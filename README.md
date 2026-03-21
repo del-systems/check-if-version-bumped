@@ -16,12 +16,13 @@ _None_
 ## Releases and node versions
 Release|Node version
 ------|--------
+3.x | Node 24
 2.x | Node 20
 1.x | Node 16
 
 ## Example usage
 ```yaml
-- uses: del-systems/check-if-version-bumped@v2
+- uses: del-systems/check-if-version-bumped@v3
   with:
     token: ${{ secrets.GITHUB_TOKEN }}
     path: "server/package.json"
